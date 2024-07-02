@@ -13,16 +13,19 @@ module alu#(parameter N = 8)(A, B, OP, OUT, ERR, OF, ZERO);
         {ERR,ZERO,OF} <= 0;
     
     always@(OP or A or B)
+    begin
+        ERR = 0;
         case(OP)
-            4'b0000: {OF,OUT} <= A + B;
-            4'b0001: {OF,OUT} <= A - B;
-            4'b0010: OUT <= A << B;
+            4'b0000: begin {OF,OUT} <= A + B; ZERO <= 0; end
+            4'b0001: begin {OF,OUT} <= A - B; ZERO <= 0; end
+            4'b0010: begin OUT <= A << B; {ZERO, OF} <= 0; end
             4'b0011: OUT <= A >> B;
             4'b0100: ZERO <= (A == B) ? 1'b1 : 1'b0;
             4'b0101: ZERO <= (A > B) ? 1'b1 : 1'b0;
             4'b0110: ZERO <= (A < B) ? 1'b1 : 1'b0;
             default: ERR <= 1;
          endcase
+      end
     
 endmodule
 
