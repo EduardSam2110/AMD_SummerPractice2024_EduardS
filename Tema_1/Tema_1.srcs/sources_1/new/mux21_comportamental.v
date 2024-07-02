@@ -25,7 +25,7 @@ module mux21_comportamental#(parameter SIZE = 8)(di1,di0,sel,do);
 	input sel;
 	output reg[SIZE-1:0] do;
 	
-	always@(sel)
+		always@(sel or di1 or di0)
 		do <= (sel==1) ? di1 : di0;
 		
 endmodule
