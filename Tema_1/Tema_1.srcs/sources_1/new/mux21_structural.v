@@ -9,7 +9,7 @@ module mux21_structural1 #(parameter SIZE = 8)(di1,di0,sel,do);
 	
 	// Output = not(sel) * di0 + sel * di1
 	
-	assign do = ~sel & di0 | sel & di1;
+	assign do = ~{SIZE{sel}} & di0 | {SIZE{sel}} & di1;
 	
 		
 endmodule
