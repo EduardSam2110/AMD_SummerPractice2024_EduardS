@@ -10,32 +10,24 @@ module top(clk, en, pl, di, clk_out, count);
     reg [`N-1:0] data;
     output reg [`N-1:0] count;
     
-    reg change;
-    
-    always@(clk)
+   always@(clk)
         if(pl & clk) begin
             data <= di;
             count <= 0;
             clk_out <= 0;
-            change <= 0;
         end
         else if(en)
-              if((count < data) & ~change) begin
+              if(count < data) begin
                     count <= count + 1;
                     clk_out <= 1;
               end
-              else begin
-                    change <= 1;
-                    if(count > 1) begin
-                        count <= count - 1;
+              else
+                    if(count < (data << 1)-1) begin
+                        count <= count + 1;
                         clk_out <= 0;
                     end
-                    else begin
-                        change <= 0;
-                        count <= count - 1;
-                   end
-              end       
-
+                    else
+                        count <= 0;
 
 endmodule
 
