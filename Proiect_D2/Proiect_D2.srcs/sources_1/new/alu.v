@@ -23,6 +23,12 @@ module alu#(parameter N = 8)(A, B, OP, OUT, ERR, OF, ZERO);
             4'b0100: ZERO <= (A == B) ? 1'b1 : 1'b0;
             4'b0101: ZERO <= (A > B) ? 1'b1 : 1'b0;
             4'b0110: ZERO <= (A < B) ? 1'b1 : 1'b0;
+            4'b0111: begin 
+                        temp = 0;
+                        for(i=0;i<B;i=i+1)
+                            temp = temp + A;
+                        OUT = temp;
+                     end
             default: ERR <= 1;
          endcase
       end
@@ -52,6 +58,7 @@ module tb;
         #10 OP = 4;
         #10 OP = 5;
         #10 OP = 6;
+        #10 OP = 7;
     
     end
 
