@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 
-
 module alu#(parameter N = 8)(A, B, OP, OUT, ERR, OF, ZERO);
 
     input [N-1:0] A, B;
@@ -9,8 +8,17 @@ module alu#(parameter N = 8)(A, B, OP, OUT, ERR, OF, ZERO);
     output reg ERR, OF; // OF joaca rol si de UNFERFLOW
     output reg ZERO;
     
-    always@(OP or A or B)
-        {ERR,ZERO,OF} <= 0;
+    function [N-1:0] multiply (input [N-1:0] a, b);
+    integer i;
+    begin
+        multiply = 0;
+        
+        for(i=0; i < B; i = i+1)
+            multiply = multiply + A;
+
+    end
+    endfunction
+
     
     always@(OP or A or B)
     begin
@@ -23,12 +31,7 @@ module alu#(parameter N = 8)(A, B, OP, OUT, ERR, OF, ZERO);
             4'b0100: ZERO <= (A == B) ? 1'b1 : 1'b0;
             4'b0101: ZERO <= (A > B) ? 1'b1 : 1'b0;
             4'b0110: ZERO <= (A < B) ? 1'b1 : 1'b0;
-            4'b0111: begin 
-                        temp = 0;
-                        for(i=0;i<B;i=i+1)
-                            temp = temp + A;
-                        OUT = temp;
-                     end
+            4'b0111: begin {OF, OUT} = multiply(A,B); ZERO <= 0; end
             default: ERR <= 1;
          endcase
       end
