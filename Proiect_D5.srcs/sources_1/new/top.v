@@ -28,7 +28,7 @@ module DIGT_DEC(in, a,b,c,d,e,f,g);
             8:  {a,b,c,d,e,f,g} <= ~ 7'b111_1111;
             9:  {a,b,c,d,e,f,g} <= ~ 7'b111_1011;
             10: {a,b,c,d,e,f,g} <= ~ 7'b111_0111;
-            11: {a,b,c,d,e,f,g} <= ~ 7'b111_1111;
+            11: {a,b,c,d,e,f,g} <= ~ 7'b001_1111;
             12: {a,b,c,d,e,f,g} <= ~ 7'b100_1110;
             13: {a,b,c,d,e,f,g} <= ~ 7'b011_1101;
             14: {a,b,c,d,e,f,g} <= ~ 7'b100_1111;
@@ -44,12 +44,11 @@ module DEC24(ain, aout);
     
     always@(ain) begin
         case(ain)
-            2'b00: aout <= 4'b0001;
-            2'b01: aout <= 4'b0010;
-            2'b10: aout <= 4'b0100;
-            2'b11: aout <= 4'b1000;
+            2'b00: aout <= ~4'b0001;
+            2'b01: aout <= ~4'b0010;
+            2'b10: aout <= ~4'b0100;
+            2'b11: aout <= ~4'b1000;
         endcase
-        aout <= ~aout;
     end
 endmodule
 
@@ -83,7 +82,7 @@ module clk_divider(clk, clk_out);
     input clk;
     output reg clk_out;
 
-    localparam di = 33_330_000; // 33.33 Mhz pe 1 secunda
+    parameter di = 138_875; // 33.33 Mhz / 240 hz
     reg[31:0] counter;
     
     always@(posedge clk)
