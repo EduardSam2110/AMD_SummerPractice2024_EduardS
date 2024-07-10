@@ -36,7 +36,11 @@ module ROM(clk, en, out);
     
     // la fiecare psedge de clk se incrementreaza adresa si citesti din ea la out, cand EN = 1
     
-
+    always@(posedge clk)
+        if(EN)
+            out <= rom[addr];
+        else
+            addr <= addr + 1;
 
 
 
