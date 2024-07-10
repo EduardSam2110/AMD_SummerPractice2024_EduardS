@@ -105,17 +105,6 @@ module ALU#(parameter N = 12)(A, B, OP, OUT, ERR, OF, ZERO);
     output reg [N-1:0] OUT;
     output reg ERR, OF; // OF joaca rol si de UNFERFLOW
     output reg ZERO;
-    
-//    function [N-1:0] multiply (input [N-1:0] a, b);
-//    integer i;
-//    begin
-//        multiply = 0;
-        
-//        for(i=0; i < B; i = i+1)
-//            multiply = multiply + A;
-
-//    end
-//    endfunction
 
     
     always@(OP or A or B)
@@ -129,17 +118,16 @@ module ALU#(parameter N = 12)(A, B, OP, OUT, ERR, OF, ZERO);
             4'b0100: ZERO <= (A == B) ? 1'b1 : 1'b0;
             4'b0101: ZERO <= (A > B) ? 1'b1 : 1'b0;
             4'b0110: ZERO <= (A < B) ? 1'b1 : 1'b0;
-//            4'b0111: begin {OF, OUT} = multiply(A,B); ZERO <= 0; end
             default: ERR <= 1;
          endcase
       end
     
 endmodule
 
-module register#(parameter SIZE = 12) (clk, pl, di, do);
+module register(clk, pl, di, do);
     input clk, pl;
-    input[SIZE-1:0] di;
-    output reg[SIZE-1:0] do;
+    input[11:0] di;
+    output reg[11:0] do;
     
     always@(posedge clk)
         if(pl)
@@ -198,9 +186,9 @@ module top(clk, in, pl, BT0, BT1, BT2, a, b, c, d, e, f, g, A);
     clk_divider inst(clk, clk_div);
     CNT2 cnt(clk_div, cnt_out);
    
-    register RgA(clk_div, pl, in, regout1);
-    register RgB(clk_div, pl, in, regout2);
-    register RgOP(clk_div, pl, in, regop);
+    register RgA(clk_div, pl & BT1, in, regout1); // reg A
+    register RgB(clk_div, pl & BT0, in, regout2); //reg B
+    register RgOP(clk_div, pl & BT2, in, regop);
     
     ALU alu(regout1, regout2, regop[3:0], ALU_OUT, ERR, OF, ZERO);
     
