@@ -16,11 +16,13 @@ module RAM(clk, data_in, addr, RW, out);
         for(i=0;i<MAX_ADDR;i=i+1) ram[i] <= 0;
     
     always@(posedge clk)
-        if(addr <= MAX_ADDR - 1)
-            if(RW)
-                out <= ram[addr];
+        if(en) begin
+            out <= rom[addr];
+            if(addr <= 99)
+                addr <= addr + 1;
             else
-                ram[addr] <= data_in;
+                addr <= 0;
+        end
         
 endmodule
 
