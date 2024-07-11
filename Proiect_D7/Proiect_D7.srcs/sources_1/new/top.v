@@ -14,15 +14,13 @@ module RAM(clk, data_in, addr, RW, out);
     
     initial
         for(i=0;i<MAX_ADDR;i=i+1) ram[i] <= 0;
-    
+
     always@(posedge clk)
-        if(en) begin
-            out <= rom[addr];
-            if(addr <= 99)
-                addr <= addr + 1;
+        if(addr <= MAX_ADDR - 1)
+            if(RW)
+                out <= ram[addr];
             else
-                addr <= 0;
-        end
+                ram[addr] <= data_in;
         
 endmodule
 
@@ -38,12 +36,14 @@ module ROM(clk, en, out);
     
     // la fiecare psedge de clk se incrementreaza adresa si citesti din ea la out, cand EN = 1
     
-    always@(posedge clk)
-        if(EN)
+     always@(posedge clk)
+        if(en) begin
             out <= rom[addr];
-        else
-            addr <= addr + 1;
-
+            if(addr <= 99)
+                addr <= addr + 1;
+            else
+                addr <= 0;
+        end
 
 
 endmodule
