@@ -14,13 +14,15 @@ module top(
          MEM_WRITE, MEM2REG, ZERO;
          
     wire [5:0] OPCODE, FUNC;
-    wire [4:0] RA1, RA2;
+    wire [4:0] RA1, RA2, DestReg;
     
     assign OPCODE = IM_OUT[31:26];
     assign FUNC = IM_OUT[5:0];
     
     assign RA1 = IM_OUT[25:21];
     assign RA2 = IM_OUT[20:16];
+    
+    assign DestReg = IM_OUT[15:11];
     
     ControlUnit CU(FUNC, OPCODE, ZERO, 
                    REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG);
@@ -32,8 +34,8 @@ module top(
     
     InstructionMemory IM(PC_OUT[7:0], IM_OUT);
     
-    MUX21#(5) mux1(IM_OUT[20:16], IM_OUT[15:11], REG_DST, MUX1_OUT);
-//                                            RA1       RA2            WA
+    MUX21#(5) mux1(RA2, DestReg, REG_DST, MUX1_OUT);
+
     RegisterBank RegBank(clk, REG_WRITE, RA1, RA2, MUX1_OUT, WD, RD1, RD2);  
     
     SignExt SE(IM_OUT[15:0], EX_TOP, SE_OUT); // ALU accepts either an operand, either a sign-extended immediate operand (lw, sw)

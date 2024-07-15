@@ -15,10 +15,9 @@ module DataMemory( // RAM
     always@(posedge clk)
         if(ADDR <= MAX_ADDR - 1)
             if(MemWrite)
-                RD <= ram[ADDR];
-            else
                 ram[ADDR] <= WD;
-           
+            else
+                RD <= ram[ADDR];           
 endmodule
 
 

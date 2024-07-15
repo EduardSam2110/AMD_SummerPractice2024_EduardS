@@ -5,8 +5,8 @@ module RegisterBank(
         input [4:0] RA2,
         input [4:0] WA, // write address
         input [31:0] WD, // write data
-        output reg [31:0] RD1,
-        output reg [31:0] RD2
+        output [31:0] RD1,
+        output [31:0] RD2
 );   
         
         reg [31:0] REGISTERS [31:0];
@@ -14,12 +14,11 @@ module RegisterBank(
         initial 
             $readmemh("MEM_INIT.mem", REGISTERS);
         
-        always@(posedge clk) begin
+        always@(posedge clk)
             if(RegWrite)
-                REGISTERS[WA] = WD;
-                
-            RD1 <= REGISTERS[RA1];
-            RD2 <= REGISTERS[RA2];
-        end    
+                REGISTERS[WA] <= WD;
+        
+        assign RD1 = REGISTERS[RA1];
+        assign RD2 = REGISTERS[RA2];
   
 endmodule
