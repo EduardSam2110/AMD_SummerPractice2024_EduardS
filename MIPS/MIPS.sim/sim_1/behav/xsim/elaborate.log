@@ -5,7 +5,7 @@ Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'ADDR' [D:/AMD_SP/Proiect final/MIPS/top.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'ADDR' [D:/AMD_SP/Proiect final/MIPS/top.v:47]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4100] "D:/AMD_SP/Proiect final/MIPS/MIPS.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.

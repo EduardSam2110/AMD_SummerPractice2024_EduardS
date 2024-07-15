@@ -1,3 +1,4 @@
 Time resolution is 1 ps
 WARNING: Too many words specified in data file MEM_INIT.mem
-$finish called at time : 50 ns : File "D:/AMD_SP/Proiect final/MIPS/top.v" Line 66
+WARNING: Too many words specified in data file MEM_INIT.mem
+$finish called at time : 100 ns : File "D:/AMD_SP/Proiect final/MIPS/top.v" Line 68

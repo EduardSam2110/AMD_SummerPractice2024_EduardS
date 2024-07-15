@@ -12,14 +12,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="50.001 ns"></ZoomEndTime>
-      <Cursor1Time time="38.983 ns"></Cursor1Time>
+      <ZoomEndTime time="100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="63.604 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="41" />
+   <WVObjectSize size="26" />
    <wvobject fp_name="/tb/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -28,75 +28,65 @@
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb/inst/PC_OUT" type="array">
-      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/ADDER_OUT" type="array">
-      <obj_property name="ElementShortName">ADDER_OUT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ADDER_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb/inst/IM_OUT" type="array">
       <obj_property name="ElementShortName">IM_OUT[31:0]</obj_property>
       <obj_property name="ObjectShortName">IM_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RD1" type="array">
       <obj_property name="ElementShortName">RD1[31:0]</obj_property>
       <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RegBank/RA1" type="array">
       <obj_property name="ElementShortName">RA1[4:0]</obj_property>
       <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RD2" type="array">
       <obj_property name="ElementShortName">RD2[31:0]</obj_property>
       <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RegBank/RA2" type="array">
       <obj_property name="ElementShortName">RA2[4:0]</obj_property>
       <obj_property name="ObjectShortName">RA2[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/WD" type="array">
       <obj_property name="ElementShortName">WD[31:0]</obj_property>
       <obj_property name="ObjectShortName">WD[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/SE_OUT" type="array">
       <obj_property name="ElementShortName">SE_OUT[31:0]</obj_property>
       <obj_property name="ObjectShortName">SE_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/MUX2_OUT" type="array">
       <obj_property name="ElementShortName">MUX2_OUT[31:0]</obj_property>
       <obj_property name="ObjectShortName">MUX2_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/ALU_OUT" type="array">
       <obj_property name="ElementShortName">ALU_OUT[31:0]</obj_property>
       <obj_property name="ObjectShortName">ALU_OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RD" type="array">
       <obj_property name="ElementShortName">RD[31:0]</obj_property>
       <obj_property name="ObjectShortName">RD[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/MUX1_OUT" type="array">
       <obj_property name="ElementShortName">MUX1_OUT[4:0]</obj_property>
       <obj_property name="ObjectShortName">MUX1_OUT[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/ALU_OP" type="array">
       <obj_property name="ElementShortName">ALU_OP[3:0]</obj_property>
       <obj_property name="ObjectShortName">ALU_OP[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/REG_DST" type="logic">
       <obj_property name="ElementShortName">REG_DST</obj_property>
@@ -126,1376 +116,351 @@
       <obj_property name="ElementShortName">ZERO</obj_property>
       <obj_property name="ObjectShortName">ZERO</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb/inst/RegBank/RA1" type="array">
-      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
-      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb/inst/CU/OPCODE" type="array">
       <obj_property name="ElementShortName">OPCODE[5:0]</obj_property>
       <obj_property name="ObjectShortName">OPCODE[5:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/CU/FUNCT" type="array">
       <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
       <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/RegBank/RA1" type="array">
-      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
-      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/RegBank/RA1" type="array">
-      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
-      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/RegBank/RA2" type="array">
-      <obj_property name="ElementShortName">RA2[4:0]</obj_property>
-      <obj_property name="ObjectShortName">RA2[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RegBank/WA" type="array">
       <obj_property name="ElementShortName">WA[4:0]</obj_property>
       <obj_property name="ObjectShortName">WA[4:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/RegBank/REGISTERS" type="array">
       <obj_property name="ElementShortName">REGISTERS[31:0][31:0]</obj_property>
       <obj_property name="ObjectShortName">REGISTERS[31:0][31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="isExpanded"></obj_property>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[31]" type="array">
          <obj_property name="ElementShortName">[31][31:0]</obj_property>
          <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[30]" type="array">
          <obj_property name="ElementShortName">[30][31:0]</obj_property>
          <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[29]" type="array">
          <obj_property name="ElementShortName">[29][31:0]</obj_property>
          <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[28]" type="array">
          <obj_property name="ElementShortName">[28][31:0]</obj_property>
          <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[27]" type="array">
          <obj_property name="ElementShortName">[27][31:0]</obj_property>
          <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[26]" type="array">
          <obj_property name="ElementShortName">[26][31:0]</obj_property>
          <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[25]" type="array">
          <obj_property name="ElementShortName">[25][31:0]</obj_property>
          <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[24]" type="array">
          <obj_property name="ElementShortName">[24][31:0]</obj_property>
          <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[23]" type="array">
          <obj_property name="ElementShortName">[23][31:0]</obj_property>
          <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[22]" type="array">
          <obj_property name="ElementShortName">[22][31:0]</obj_property>
          <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[21]" type="array">
          <obj_property name="ElementShortName">[21][31:0]</obj_property>
          <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[20]" type="array">
          <obj_property name="ElementShortName">[20][31:0]</obj_property>
          <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[19]" type="array">
          <obj_property name="ElementShortName">[19][31:0]</obj_property>
          <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[18]" type="array">
          <obj_property name="ElementShortName">[18][31:0]</obj_property>
          <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[17]" type="array">
          <obj_property name="ElementShortName">[17][31:0]</obj_property>
          <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[16]" type="array">
          <obj_property name="ElementShortName">[16][31:0]</obj_property>
          <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[15]" type="array">
          <obj_property name="ElementShortName">[15][31:0]</obj_property>
          <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[14]" type="array">
          <obj_property name="ElementShortName">[14][31:0]</obj_property>
          <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[13]" type="array">
          <obj_property name="ElementShortName">[13][31:0]</obj_property>
          <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[12]" type="array">
          <obj_property name="ElementShortName">[12][31:0]</obj_property>
          <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[11]" type="array">
          <obj_property name="ElementShortName">[11][31:0]</obj_property>
          <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[10]" type="array">
          <obj_property name="ElementShortName">[10][31:0]</obj_property>
          <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[9]" type="array">
          <obj_property name="ElementShortName">[9][31:0]</obj_property>
          <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[8]" type="array">
          <obj_property name="ElementShortName">[8][31:0]</obj_property>
          <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[7]" type="array">
          <obj_property name="ElementShortName">[7][31:0]</obj_property>
          <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[6]" type="array">
          <obj_property name="ElementShortName">[6][31:0]</obj_property>
          <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[5]" type="array">
          <obj_property name="ElementShortName">[5][31:0]</obj_property>
          <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[4]" type="array">
          <obj_property name="ElementShortName">[4][31:0]</obj_property>
          <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[3]" type="array">
          <obj_property name="ElementShortName">[3][31:0]</obj_property>
          <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[2]" type="array">
          <obj_property name="ElementShortName">[2][31:0]</obj_property>
          <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[1]" type="array">
          <obj_property name="ElementShortName">[1][31:0]</obj_property>
          <obj_property name="ObjectShortName">[1][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/RegBank/REGISTERS[0]" type="array">
          <obj_property name="ElementShortName">[0][31:0]</obj_property>
          <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/IN0" type="array">
-      <obj_property name="ElementShortName">IN0[31:0]</obj_property>
-      <obj_property name="ObjectShortName">IN0[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/IN1" type="array">
-      <obj_property name="ElementShortName">IN1[31:0]</obj_property>
-      <obj_property name="ObjectShortName">IN1[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/SEL" type="logic">
-      <obj_property name="ElementShortName">SEL</obj_property>
-      <obj_property name="ObjectShortName">SEL</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/OUT" type="array">
-      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/SIZE" type="array">
-      <obj_property name="ElementShortName">SIZE[31:0]</obj_property>
-      <obj_property name="ObjectShortName">SIZE[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/DM/ADDR" type="array">
-      <obj_property name="ElementShortName">ADDR[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ADDR[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/DM/WD" type="array">
-      <obj_property name="ElementShortName">WD[31:0]</obj_property>
-      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/mux3/OUT" type="array">
-      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/inst/DM/ram" type="array">
-      <obj_property name="ElementShortName">ram[127:0][31:0]</obj_property>
-      <obj_property name="ObjectShortName">ram[127:0][31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="ElementShortName">ram[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[31:0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject fp_name="/tb/inst/DM/ram[127]" type="array">
-         <obj_property name="ElementShortName">[127][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[127][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[126]" type="array">
-         <obj_property name="ElementShortName">[126][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[126][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[125]" type="array">
-         <obj_property name="ElementShortName">[125][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[125][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[124]" type="array">
-         <obj_property name="ElementShortName">[124][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[124][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[123]" type="array">
-         <obj_property name="ElementShortName">[123][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[123][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[122]" type="array">
-         <obj_property name="ElementShortName">[122][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[122][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[121]" type="array">
-         <obj_property name="ElementShortName">[121][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[121][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[120]" type="array">
-         <obj_property name="ElementShortName">[120][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[120][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[119]" type="array">
-         <obj_property name="ElementShortName">[119][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[119][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[118]" type="array">
-         <obj_property name="ElementShortName">[118][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[118][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[117]" type="array">
-         <obj_property name="ElementShortName">[117][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[117][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[116]" type="array">
-         <obj_property name="ElementShortName">[116][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[116][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[115]" type="array">
-         <obj_property name="ElementShortName">[115][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[115][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[114]" type="array">
-         <obj_property name="ElementShortName">[114][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[114][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[113]" type="array">
-         <obj_property name="ElementShortName">[113][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[113][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[112]" type="array">
-         <obj_property name="ElementShortName">[112][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[112][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[111]" type="array">
-         <obj_property name="ElementShortName">[111][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[111][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[110]" type="array">
-         <obj_property name="ElementShortName">[110][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[110][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[109]" type="array">
-         <obj_property name="ElementShortName">[109][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[109][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[108]" type="array">
-         <obj_property name="ElementShortName">[108][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[108][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[107]" type="array">
-         <obj_property name="ElementShortName">[107][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[107][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[106]" type="array">
-         <obj_property name="ElementShortName">[106][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[106][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[105]" type="array">
-         <obj_property name="ElementShortName">[105][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[105][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[104]" type="array">
-         <obj_property name="ElementShortName">[104][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[104][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[103]" type="array">
-         <obj_property name="ElementShortName">[103][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[103][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[102]" type="array">
-         <obj_property name="ElementShortName">[102][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[102][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[101]" type="array">
-         <obj_property name="ElementShortName">[101][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[101][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[100]" type="array">
-         <obj_property name="ElementShortName">[100][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[100][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[99]" type="array">
-         <obj_property name="ElementShortName">[99][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[99][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[98]" type="array">
-         <obj_property name="ElementShortName">[98][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[98][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[97]" type="array">
-         <obj_property name="ElementShortName">[97][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[97][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[96]" type="array">
-         <obj_property name="ElementShortName">[96][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[96][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[95]" type="array">
-         <obj_property name="ElementShortName">[95][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[95][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[94]" type="array">
-         <obj_property name="ElementShortName">[94][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[94][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[93]" type="array">
-         <obj_property name="ElementShortName">[93][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[93][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[92]" type="array">
-         <obj_property name="ElementShortName">[92][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[92][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[91]" type="array">
-         <obj_property name="ElementShortName">[91][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[91][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[90]" type="array">
-         <obj_property name="ElementShortName">[90][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[90][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[89]" type="array">
-         <obj_property name="ElementShortName">[89][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[89][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[88]" type="array">
-         <obj_property name="ElementShortName">[88][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[88][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[87]" type="array">
-         <obj_property name="ElementShortName">[87][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[87][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[86]" type="array">
-         <obj_property name="ElementShortName">[86][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[86][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[85]" type="array">
-         <obj_property name="ElementShortName">[85][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[85][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[84]" type="array">
-         <obj_property name="ElementShortName">[84][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[84][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[83]" type="array">
-         <obj_property name="ElementShortName">[83][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[83][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[82]" type="array">
-         <obj_property name="ElementShortName">[82][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[82][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[81]" type="array">
-         <obj_property name="ElementShortName">[81][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[81][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[80]" type="array">
-         <obj_property name="ElementShortName">[80][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[80][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[79]" type="array">
-         <obj_property name="ElementShortName">[79][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[79][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[78]" type="array">
-         <obj_property name="ElementShortName">[78][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[78][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[77]" type="array">
-         <obj_property name="ElementShortName">[77][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[77][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[76]" type="array">
-         <obj_property name="ElementShortName">[76][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[76][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[75]" type="array">
-         <obj_property name="ElementShortName">[75][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[75][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[74]" type="array">
-         <obj_property name="ElementShortName">[74][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[74][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[73]" type="array">
-         <obj_property name="ElementShortName">[73][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[73][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[72]" type="array">
-         <obj_property name="ElementShortName">[72][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[72][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[71]" type="array">
-         <obj_property name="ElementShortName">[71][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[71][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[70]" type="array">
-         <obj_property name="ElementShortName">[70][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[70][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[69]" type="array">
-         <obj_property name="ElementShortName">[69][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[69][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[68]" type="array">
-         <obj_property name="ElementShortName">[68][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[68][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[67]" type="array">
-         <obj_property name="ElementShortName">[67][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[67][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[66]" type="array">
-         <obj_property name="ElementShortName">[66][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[66][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[65]" type="array">
-         <obj_property name="ElementShortName">[65][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[65][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[64]" type="array">
-         <obj_property name="ElementShortName">[64][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[64][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[63]" type="array">
-         <obj_property name="ElementShortName">[63][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[63][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[62]" type="array">
-         <obj_property name="ElementShortName">[62][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[62][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[61]" type="array">
-         <obj_property name="ElementShortName">[61][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[61][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[60]" type="array">
-         <obj_property name="ElementShortName">[60][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[60][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[59]" type="array">
-         <obj_property name="ElementShortName">[59][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[59][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[58]" type="array">
-         <obj_property name="ElementShortName">[58][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[58][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[57]" type="array">
-         <obj_property name="ElementShortName">[57][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[57][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[56]" type="array">
-         <obj_property name="ElementShortName">[56][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[56][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[55]" type="array">
-         <obj_property name="ElementShortName">[55][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[55][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[54]" type="array">
-         <obj_property name="ElementShortName">[54][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[54][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[53]" type="array">
-         <obj_property name="ElementShortName">[53][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[53][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[52]" type="array">
-         <obj_property name="ElementShortName">[52][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[52][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[51]" type="array">
-         <obj_property name="ElementShortName">[51][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[51][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[50]" type="array">
-         <obj_property name="ElementShortName">[50][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[50][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[49]" type="array">
-         <obj_property name="ElementShortName">[49][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[49][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[48]" type="array">
-         <obj_property name="ElementShortName">[48][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[48][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[47]" type="array">
-         <obj_property name="ElementShortName">[47][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[47][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[46]" type="array">
-         <obj_property name="ElementShortName">[46][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[46][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[45]" type="array">
-         <obj_property name="ElementShortName">[45][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[45][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[44]" type="array">
-         <obj_property name="ElementShortName">[44][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[44][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[43]" type="array">
-         <obj_property name="ElementShortName">[43][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[43][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[42]" type="array">
-         <obj_property name="ElementShortName">[42][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[42][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[41]" type="array">
-         <obj_property name="ElementShortName">[41][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[41][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[40]" type="array">
-         <obj_property name="ElementShortName">[40][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[40][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[39]" type="array">
-         <obj_property name="ElementShortName">[39][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[39][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[38]" type="array">
-         <obj_property name="ElementShortName">[38][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[38][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[37]" type="array">
-         <obj_property name="ElementShortName">[37][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[37][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[36]" type="array">
-         <obj_property name="ElementShortName">[36][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[36][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[35]" type="array">
-         <obj_property name="ElementShortName">[35][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[35][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[34]" type="array">
-         <obj_property name="ElementShortName">[34][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[34][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[33]" type="array">
-         <obj_property name="ElementShortName">[33][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[33][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[32]" type="array">
-         <obj_property name="ElementShortName">[32][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[32][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[31]" type="array">
          <obj_property name="ElementShortName">[31][31:0]</obj_property>
          <obj_property name="ObjectShortName">[31][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[30]" type="array">
          <obj_property name="ElementShortName">[30][31:0]</obj_property>
          <obj_property name="ObjectShortName">[30][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[29]" type="array">
          <obj_property name="ElementShortName">[29][31:0]</obj_property>
          <obj_property name="ObjectShortName">[29][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[28]" type="array">
          <obj_property name="ElementShortName">[28][31:0]</obj_property>
          <obj_property name="ObjectShortName">[28][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[27]" type="array">
          <obj_property name="ElementShortName">[27][31:0]</obj_property>
          <obj_property name="ObjectShortName">[27][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[26]" type="array">
          <obj_property name="ElementShortName">[26][31:0]</obj_property>
          <obj_property name="ObjectShortName">[26][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[25]" type="array">
          <obj_property name="ElementShortName">[25][31:0]</obj_property>
          <obj_property name="ObjectShortName">[25][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[24]" type="array">
          <obj_property name="ElementShortName">[24][31:0]</obj_property>
          <obj_property name="ObjectShortName">[24][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[23]" type="array">
          <obj_property name="ElementShortName">[23][31:0]</obj_property>
          <obj_property name="ObjectShortName">[23][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[22]" type="array">
          <obj_property name="ElementShortName">[22][31:0]</obj_property>
          <obj_property name="ObjectShortName">[22][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[21]" type="array">
          <obj_property name="ElementShortName">[21][31:0]</obj_property>
          <obj_property name="ObjectShortName">[21][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[20]" type="array">
          <obj_property name="ElementShortName">[20][31:0]</obj_property>
          <obj_property name="ObjectShortName">[20][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[19]" type="array">
          <obj_property name="ElementShortName">[19][31:0]</obj_property>
          <obj_property name="ObjectShortName">[19][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[18]" type="array">
          <obj_property name="ElementShortName">[18][31:0]</obj_property>
          <obj_property name="ObjectShortName">[18][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[17]" type="array">
          <obj_property name="ElementShortName">[17][31:0]</obj_property>
          <obj_property name="ObjectShortName">[17][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[16]" type="array">
          <obj_property name="ElementShortName">[16][31:0]</obj_property>
          <obj_property name="ObjectShortName">[16][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[15]" type="array">
          <obj_property name="ElementShortName">[15][31:0]</obj_property>
          <obj_property name="ObjectShortName">[15][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[14]" type="array">
          <obj_property name="ElementShortName">[14][31:0]</obj_property>
          <obj_property name="ObjectShortName">[14][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[13]" type="array">
          <obj_property name="ElementShortName">[13][31:0]</obj_property>
          <obj_property name="ObjectShortName">[13][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[12]" type="array">
          <obj_property name="ElementShortName">[12][31:0]</obj_property>
          <obj_property name="ObjectShortName">[12][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[11]" type="array">
          <obj_property name="ElementShortName">[11][31:0]</obj_property>
          <obj_property name="ObjectShortName">[11][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[10]" type="array">
          <obj_property name="ElementShortName">[10][31:0]</obj_property>
          <obj_property name="ObjectShortName">[10][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[9]" type="array">
          <obj_property name="ElementShortName">[9][31:0]</obj_property>
          <obj_property name="ObjectShortName">[9][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[8]" type="array">
          <obj_property name="ElementShortName">[8][31:0]</obj_property>
          <obj_property name="ObjectShortName">[8][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[7]" type="array">
          <obj_property name="ElementShortName">[7][31:0]</obj_property>
          <obj_property name="ObjectShortName">[7][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[6]" type="array">
          <obj_property name="ElementShortName">[6][31:0]</obj_property>
          <obj_property name="ObjectShortName">[6][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[5]" type="array">
          <obj_property name="ElementShortName">[5][31:0]</obj_property>
          <obj_property name="ObjectShortName">[5][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[4]" type="array">
          <obj_property name="ElementShortName">[4][31:0]</obj_property>
          <obj_property name="ObjectShortName">[4][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[3]" type="array">
          <obj_property name="ElementShortName">[3][31:0]</obj_property>
          <obj_property name="ObjectShortName">[3][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[2]" type="array">
          <obj_property name="ElementShortName">[2][31:0]</obj_property>
          <obj_property name="ObjectShortName">[2][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[1]" type="array">
          <obj_property name="ElementShortName">[1][31:0]</obj_property>
          <obj_property name="ObjectShortName">[1][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/tb/inst/DM/ram[0]" type="array">
          <obj_property name="ElementShortName">[0][31:0]</obj_property>
          <obj_property name="ObjectShortName">[0][31:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[127]" type="array">
-         <obj_property name="ElementShortName">[127][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[127][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[126]" type="array">
-         <obj_property name="ElementShortName">[126][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[126][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[125]" type="array">
-         <obj_property name="ElementShortName">[125][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[125][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[124]" type="array">
-         <obj_property name="ElementShortName">[124][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[124][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[123]" type="array">
-         <obj_property name="ElementShortName">[123][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[123][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[122]" type="array">
-         <obj_property name="ElementShortName">[122][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[122][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[121]" type="array">
-         <obj_property name="ElementShortName">[121][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[121][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[120]" type="array">
-         <obj_property name="ElementShortName">[120][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[120][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[119]" type="array">
-         <obj_property name="ElementShortName">[119][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[119][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[118]" type="array">
-         <obj_property name="ElementShortName">[118][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[118][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[117]" type="array">
-         <obj_property name="ElementShortName">[117][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[117][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[116]" type="array">
-         <obj_property name="ElementShortName">[116][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[116][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[115]" type="array">
-         <obj_property name="ElementShortName">[115][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[115][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[114]" type="array">
-         <obj_property name="ElementShortName">[114][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[114][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[113]" type="array">
-         <obj_property name="ElementShortName">[113][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[113][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[112]" type="array">
-         <obj_property name="ElementShortName">[112][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[112][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[111]" type="array">
-         <obj_property name="ElementShortName">[111][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[111][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[110]" type="array">
-         <obj_property name="ElementShortName">[110][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[110][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[109]" type="array">
-         <obj_property name="ElementShortName">[109][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[109][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[108]" type="array">
-         <obj_property name="ElementShortName">[108][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[108][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[107]" type="array">
-         <obj_property name="ElementShortName">[107][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[107][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[106]" type="array">
-         <obj_property name="ElementShortName">[106][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[106][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[105]" type="array">
-         <obj_property name="ElementShortName">[105][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[105][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[104]" type="array">
-         <obj_property name="ElementShortName">[104][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[104][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[103]" type="array">
-         <obj_property name="ElementShortName">[103][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[103][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[102]" type="array">
-         <obj_property name="ElementShortName">[102][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[102][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[101]" type="array">
-         <obj_property name="ElementShortName">[101][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[101][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[100]" type="array">
-         <obj_property name="ElementShortName">[100][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[100][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[99]" type="array">
-         <obj_property name="ElementShortName">[99][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[99][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[98]" type="array">
-         <obj_property name="ElementShortName">[98][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[98][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[97]" type="array">
-         <obj_property name="ElementShortName">[97][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[97][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[96]" type="array">
-         <obj_property name="ElementShortName">[96][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[96][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[95]" type="array">
-         <obj_property name="ElementShortName">[95][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[95][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[94]" type="array">
-         <obj_property name="ElementShortName">[94][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[94][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[93]" type="array">
-         <obj_property name="ElementShortName">[93][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[93][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[92]" type="array">
-         <obj_property name="ElementShortName">[92][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[92][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[91]" type="array">
-         <obj_property name="ElementShortName">[91][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[91][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[90]" type="array">
-         <obj_property name="ElementShortName">[90][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[90][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[89]" type="array">
-         <obj_property name="ElementShortName">[89][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[89][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[88]" type="array">
-         <obj_property name="ElementShortName">[88][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[88][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[87]" type="array">
-         <obj_property name="ElementShortName">[87][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[87][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[86]" type="array">
-         <obj_property name="ElementShortName">[86][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[86][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[85]" type="array">
-         <obj_property name="ElementShortName">[85][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[85][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[84]" type="array">
-         <obj_property name="ElementShortName">[84][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[84][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[83]" type="array">
-         <obj_property name="ElementShortName">[83][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[83][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[82]" type="array">
-         <obj_property name="ElementShortName">[82][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[82][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[81]" type="array">
-         <obj_property name="ElementShortName">[81][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[81][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[80]" type="array">
-         <obj_property name="ElementShortName">[80][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[80][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[79]" type="array">
-         <obj_property name="ElementShortName">[79][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[79][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[78]" type="array">
-         <obj_property name="ElementShortName">[78][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[78][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[77]" type="array">
-         <obj_property name="ElementShortName">[77][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[77][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[76]" type="array">
-         <obj_property name="ElementShortName">[76][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[76][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[75]" type="array">
-         <obj_property name="ElementShortName">[75][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[75][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[74]" type="array">
-         <obj_property name="ElementShortName">[74][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[74][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[73]" type="array">
-         <obj_property name="ElementShortName">[73][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[73][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[72]" type="array">
-         <obj_property name="ElementShortName">[72][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[72][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[71]" type="array">
-         <obj_property name="ElementShortName">[71][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[71][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[70]" type="array">
-         <obj_property name="ElementShortName">[70][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[70][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[69]" type="array">
-         <obj_property name="ElementShortName">[69][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[69][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[68]" type="array">
-         <obj_property name="ElementShortName">[68][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[68][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[67]" type="array">
-         <obj_property name="ElementShortName">[67][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[67][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[66]" type="array">
-         <obj_property name="ElementShortName">[66][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[66][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[65]" type="array">
-         <obj_property name="ElementShortName">[65][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[65][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[64]" type="array">
-         <obj_property name="ElementShortName">[64][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[64][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[63]" type="array">
-         <obj_property name="ElementShortName">[63][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[63][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[62]" type="array">
-         <obj_property name="ElementShortName">[62][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[62][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[61]" type="array">
-         <obj_property name="ElementShortName">[61][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[61][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[60]" type="array">
-         <obj_property name="ElementShortName">[60][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[60][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[59]" type="array">
-         <obj_property name="ElementShortName">[59][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[59][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[58]" type="array">
-         <obj_property name="ElementShortName">[58][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[58][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[57]" type="array">
-         <obj_property name="ElementShortName">[57][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[57][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[56]" type="array">
-         <obj_property name="ElementShortName">[56][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[56][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[55]" type="array">
-         <obj_property name="ElementShortName">[55][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[55][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[54]" type="array">
-         <obj_property name="ElementShortName">[54][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[54][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[53]" type="array">
-         <obj_property name="ElementShortName">[53][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[53][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[52]" type="array">
-         <obj_property name="ElementShortName">[52][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[52][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[51]" type="array">
-         <obj_property name="ElementShortName">[51][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[51][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[50]" type="array">
-         <obj_property name="ElementShortName">[50][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[50][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[49]" type="array">
-         <obj_property name="ElementShortName">[49][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[49][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[48]" type="array">
-         <obj_property name="ElementShortName">[48][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[48][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[47]" type="array">
-         <obj_property name="ElementShortName">[47][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[47][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[46]" type="array">
-         <obj_property name="ElementShortName">[46][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[46][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[45]" type="array">
-         <obj_property name="ElementShortName">[45][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[45][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[44]" type="array">
-         <obj_property name="ElementShortName">[44][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[44][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[43]" type="array">
-         <obj_property name="ElementShortName">[43][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[43][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[42]" type="array">
-         <obj_property name="ElementShortName">[42][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[42][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[41]" type="array">
-         <obj_property name="ElementShortName">[41][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[41][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[40]" type="array">
-         <obj_property name="ElementShortName">[40][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[40][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[39]" type="array">
-         <obj_property name="ElementShortName">[39][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[39][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[38]" type="array">
-         <obj_property name="ElementShortName">[38][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[38][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[37]" type="array">
-         <obj_property name="ElementShortName">[37][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[37][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[36]" type="array">
-         <obj_property name="ElementShortName">[36][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[36][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[35]" type="array">
-         <obj_property name="ElementShortName">[35][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[35][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[34]" type="array">
-         <obj_property name="ElementShortName">[34][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[34][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[33]" type="array">
-         <obj_property name="ElementShortName">[33][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[33][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[32]" type="array">
-         <obj_property name="ElementShortName">[32][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[32][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[31]" type="array">
-         <obj_property name="ElementShortName">[31][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[30]" type="array">
-         <obj_property name="ElementShortName">[30][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[29]" type="array">
-         <obj_property name="ElementShortName">[29][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[28]" type="array">
-         <obj_property name="ElementShortName">[28][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[27]" type="array">
-         <obj_property name="ElementShortName">[27][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[26]" type="array">
-         <obj_property name="ElementShortName">[26][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[25]" type="array">
-         <obj_property name="ElementShortName">[25][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[24]" type="array">
-         <obj_property name="ElementShortName">[24][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[23]" type="array">
-         <obj_property name="ElementShortName">[23][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[22]" type="array">
-         <obj_property name="ElementShortName">[22][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[21]" type="array">
-         <obj_property name="ElementShortName">[21][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[20]" type="array">
-         <obj_property name="ElementShortName">[20][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[19]" type="array">
-         <obj_property name="ElementShortName">[19][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[18]" type="array">
-         <obj_property name="ElementShortName">[18][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[17]" type="array">
-         <obj_property name="ElementShortName">[17][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[16]" type="array">
-         <obj_property name="ElementShortName">[16][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[15]" type="array">
-         <obj_property name="ElementShortName">[15][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[14]" type="array">
-         <obj_property name="ElementShortName">[14][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[13]" type="array">
-         <obj_property name="ElementShortName">[13][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[12]" type="array">
-         <obj_property name="ElementShortName">[12][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[11]" type="array">
-         <obj_property name="ElementShortName">[11][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[10]" type="array">
-         <obj_property name="ElementShortName">[10][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[9]" type="array">
-         <obj_property name="ElementShortName">[9][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[8]" type="array">
-         <obj_property name="ElementShortName">[8][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[7]" type="array">
-         <obj_property name="ElementShortName">[7][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[6]" type="array">
-         <obj_property name="ElementShortName">[6][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[5]" type="array">
-         <obj_property name="ElementShortName">[5][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[4]" type="array">
-         <obj_property name="ElementShortName">[4][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[3]" type="array">
-         <obj_property name="ElementShortName">[3][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[2]" type="array">
-         <obj_property name="ElementShortName">[2][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[1]" type="array">
-         <obj_property name="ElementShortName">[1][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
-      </wvobject>
-      <wvobject fp_name="/tb/inst/DM/ram[0]" type="array">
-         <obj_property name="ElementShortName">[0][31:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
-      </wvobject>
-   </wvobject>
-   <wvobject fp_name="/tb/inst/DM/ADDR" type="array">
-      <obj_property name="ElementShortName">ADDR[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ADDR[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

@@ -24,11 +24,12 @@ module ControlUnit(
     else begin // I-TYPE
         case(OPCODE)
             6'b001_000: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_1_0_1_0010_0_1; // addi
-            6'b100_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_1_0_1_0010_0_0; // lw
-            // opcode (6) rd (5) rs (5) offset (16)
-            6'b101_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_0_0_1_0010_1_0; // sw
+            // opcode (6) rs (5) rd (5) offset (16)
+            6'b100_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_1_0_1_0010_0_1; // lw
+            // opcode (6) rs (5) rd (5) offset (16)
+            6'b101_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_0_0_1_0010_1_1; // sw
+            default : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0;
 
-        
         endcase
     end
 
@@ -70,6 +71,6 @@ ExTop - 1 or 0
 MemWrite - 0 (not for addi)
 Mem2Reg - 1 (the data to be written is coming from ALU, not data memory)
 
-
+Mem2Reg - data read from memory to be written in destination register
 
 */

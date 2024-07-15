@@ -65,7 +65,7 @@ module tb;
     end
     
     initial
-        #50 $finish;
+        #100 $finish;
     
     initial
     begin

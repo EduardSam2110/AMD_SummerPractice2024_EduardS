@@ -5,7 +5,7 @@ module DataMemory( // RAM
         input [7:0] ADDR,
         output reg [31:0] RD // read data, data citita
 );
-    reg [31:0] ram [127:0];
+    reg [31:0] ram [31:0];
     
     parameter MAX_ADDR = 128;
    
