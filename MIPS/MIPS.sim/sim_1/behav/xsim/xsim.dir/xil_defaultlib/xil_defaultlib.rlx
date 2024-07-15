@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AMD_SP/Proiect final/MIPS/ALU.v,1720869471,verilog,,D:/AMD_SP/Proiect final/MIPS/ControlUnit.v,,ADDER;ALU,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/ControlUnit.v,1720988039,verilog,,D:/AMD_SP/Proiect final/MIPS/DataMemory.v,,ControlUnit,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/DataMemory.v,1720903076,verilog,,D:/AMD_SP/Proiect final/MIPS/InstructionMemory.v,,DataMemory,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/InstructionMemory.v,1720902712,verilog,,D:/AMD_SP/Proiect final/MIPS/MIPS.srcs/sources_1/imports/MIPS/MUX.v,,InstructionMemory,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/MIPS.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/MIPS.srcs/sources_1/imports/MIPS/MUX.v,1720869472,verilog,,D:/AMD_SP/Proiect final/MIPS/ProgramCounter.v,,MUX21,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/ProgramCounter.v,1720869472,verilog,,D:/AMD_SP/Proiect final/MIPS/RegisterBank.v,,ProgramCounter,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/RegisterBank.v,1720903625,verilog,,D:/AMD_SP/Proiect final/MIPS/SignExt.v,,RegisterBank,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/SignExt.v,1720902465,verilog,,D:/AMD_SP/Proiect final/MIPS/top.v,,SignExt,,,,,,,,
+D:/AMD_SP/Proiect final/MIPS/top.v,1720988233,verilog,,,,tb;top,,,,,,,,
