@@ -1,5 +1,6 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_SP/Proiect final/MIPS/ALU.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-311] analyzing module SHL
 INFO: [VRFC 10-311] analyzing module ALU
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AMD_SP/Proiect final/MIPS/ControlUnit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ControlUnit

@@ -9,7 +9,8 @@ module ControlUnit(
         output reg [3:0] ALU_OP,
         output reg MEM_WRITE,
         output reg MEM2REG,
-        output reg PC_SRC
+        output reg PC_SRC,
+        output reg JUMP
 );
 
     always@(FUNCT or OPCODE or ZERO)
@@ -22,19 +23,18 @@ module ControlUnit(
             6'b101_010 : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b1_1_0_0_0111_0_1; // slt
             default : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0;
         endcase
-        PC_SRC = 0;
+        {PC_SRC, JUMP} = 0;
     end
     else begin // I-TYPE and others
         casex(OPCODE)
             // I-TYPE  -> opcode (6) rs (5) rd (5) offset (16)
-            6'b001_000: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC} = 11'b0_1_0_1_0010_0_1_0; // addi
-            6'b100_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC} = 11'b0_1_0_1_0010_0_1_0; // lw
-            6'b101_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC} = 11'b0_0_0_1_0010_1_1_0; // sw
-            6'b000_100: begin
-                        {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG} = 10'b0_0_1_0_0101_0_x; // beq
-                        PC_SRC = ZERO;       
-            end
-            default : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC} = 11'b0;
+            6'b001_000: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_1_0_1_0010_0_1_0_0; // addi
+            6'b100_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_1_0_1_0010_0_1_0_0; // lw
+            6'b101_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_0_0_1_0010_1_1_0_0; // sw
+            6'b000_100: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, JUMP, PC_SRC} = {11'b0_0_1_0_xxxx_0_x_0, ZERO}; // beq
+            // opcode (6) target (26)
+            6'b000010: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_0_0_0_0101_0_x_1_1; // j
+            default : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0;
         endcase
     end
 
