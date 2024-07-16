@@ -31,9 +31,9 @@ module ControlUnit(
             6'b001_000: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_1_0_1_0010_0_1_0_0; // addi
             6'b100_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_1_0_1_0010_0_1_0_0; // lw
             6'b101_011: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_0_0_1_0010_1_1_0_0; // sw
-            6'b000_100: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, JUMP, PC_SRC} = {11'b0_0_1_0_xxxx_0_x_0, ZERO}; // beq
+            6'b000_100: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, JUMP, PC_SRC} = {11'b0_0_1_0_0000_0_0_0, ZERO}; // beq
             // opcode (6) target (26)
-            6'b000010: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_0_0_0_0101_0_x_1_1; // j
+            6'b000010: {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0_0_0_0_0000_0_0_0_1; // j
             default : {REG_DST, REG_WRITE, EX_TOP, ALU_SRC, ALU_OP, MEM_WRITE, MEM2REG, PC_SRC, JUMP} = 12'b0;
         endcase
     end
