@@ -9,6 +9,15 @@ module ADDER(
 endmodule
 
 
+module SHL(
+        input [31:0] IN,
+        output [31:0] OUT
+);
+
+    assign OUT = IN << 2;
+
+endmodule
+
 module ALU(
         input [31:0] A,
         input [31:0] B,
@@ -26,6 +35,7 @@ module ALU(
             4'b0110: begin OUT = A - B; ZERO = 0; end
             4'b0111: ZERO = (A < B) ? 1'b1 : 1'b0;
             4'b1100: begin OUT = ~ ( A | B ); ZERO = 0; end
+            4'b0101: ZERO = (A == B) ? 1'b1 : 1'b0;
         endcase
     end
 
