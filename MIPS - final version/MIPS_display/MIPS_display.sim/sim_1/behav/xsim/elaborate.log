@@ -22,7 +22,6 @@ Compiling module xil_defaultlib.RegisterBank
 Compiling module xil_defaultlib.SignExt
 Compiling module xil_defaultlib.ALU
 Compiling module xil_defaultlib.DataMemory
-Compiling module xil_defaultlib.clk_divider
 Compiling module xil_defaultlib.CNT2
 Compiling module xil_defaultlib.MUX41
 Compiling module xil_defaultlib.DEC24

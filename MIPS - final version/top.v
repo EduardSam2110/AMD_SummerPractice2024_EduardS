@@ -73,9 +73,9 @@ module top(
     
     MUX21#(32) mux3(RD, ALU_OUT, MEM2REG, WD);
 
-    clk_divider div(clk, clk_div);
+//    clk_divider div(clk, clk_div);
     
-    CNT2 cnt(clk_div, counter_out);
+    CNT2 cnt(clk, counter_out);
     
     MUX41 disp_mux(4'b0, data_read_user[11:8], data_read_user[7:4], data_read_user[3:0], 
                     mux_disp_out, counter_out);
