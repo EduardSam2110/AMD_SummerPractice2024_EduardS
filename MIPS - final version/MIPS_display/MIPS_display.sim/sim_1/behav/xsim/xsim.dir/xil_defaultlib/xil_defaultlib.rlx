@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AMD_SP/MIPS - cu display/ALU.v,1721119744,verilog,,D:/AMD_SP/MIPS - cu display/ControlUnit.v,,ADDER;ALU;SHL,,,,,,,,
+D:/AMD_SP/MIPS - cu display/ControlUnit.v,1721505505,verilog,,D:/AMD_SP/MIPS - cu display/DataMemory.v,,ControlUnit,,,,,,,,
+D:/AMD_SP/MIPS - cu display/DataMemory.v,1721504544,verilog,,D:/AMD_SP/MIPS - cu display/Display.v,,DataMemory,,,,,,,,
+D:/AMD_SP/MIPS - cu display/Display.v,1721503382,verilog,,D:/AMD_SP/MIPS - cu display/InstructionMemory.v,,CNT2;DEC24;DIGT_DEC;MUX41;clk_divider,,,,,,,,
+D:/AMD_SP/MIPS - cu display/InstructionMemory.v,1721117218,verilog,,D:/AMD_SP/MIPS - cu display/MUX.v,,InstructionMemory,,,,,,,,
+D:/AMD_SP/MIPS - cu display/MIPS_display/MIPS_display.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/AMD_SP/MIPS - cu display/MUX.v,1721117218,verilog,,D:/AMD_SP/MIPS - cu display/ProgramCounter.v,,MUX21,,,,,,,,
+D:/AMD_SP/MIPS - cu display/ProgramCounter.v,1721117218,verilog,,D:/AMD_SP/MIPS - cu display/RegisterBank.v,,ProgramCounter,,,,,,,,
+D:/AMD_SP/MIPS - cu display/RegisterBank.v,1721117556,verilog,,D:/AMD_SP/MIPS - cu display/SignExt.v,,RegisterBank,,,,,,,,
+D:/AMD_SP/MIPS - cu display/SignExt.v,1721122650,verilog,,D:/AMD_SP/MIPS - cu display/top.v,,SignExt,,,,,,,,
+D:/AMD_SP/MIPS - cu display/top.v,1721502899,verilog,,,,tb;top,,,,,,,,
