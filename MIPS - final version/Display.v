@@ -82,7 +82,7 @@ module clk_divider(clk, clk_out);
     input clk;
     output reg clk_out;
 
-    parameter di = 138_875; // 33.33 Mhz / 240 hz
+    parameter di = 138_875; // 33.33 Mhz / 240 hz -> clk_out = 240 hz
     reg[31:0] counter;
     
     initial begin

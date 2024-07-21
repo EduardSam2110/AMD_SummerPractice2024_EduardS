@@ -71,7 +71,7 @@ module top(
     
     
     
-    MUX21#(32) mux3(RD, ALU_OUT, MEM2REG, WD);
+    MUX21#(32) mux3(ALU_OUT, RD, MEM2REG, WD);
 
 //    clk_divider div(clk, clk_div);
     
