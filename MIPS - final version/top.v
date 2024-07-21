@@ -100,11 +100,11 @@ module tb;
     end
     
     initial
-        #300 $finish;
+        #120 $finish;
     
     initial
     begin
-        forever #20 data_in = data_in + 16;
+        forever #10 data_in = data_in + 1;
     end
 
 endmodule

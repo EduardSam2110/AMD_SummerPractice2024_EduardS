@@ -33,7 +33,7 @@ module ALU(
             4'b0001: begin OUT = A | B; ZERO = 0; end
             4'b0010: begin OUT = A + B; ZERO = 0; end
             4'b0110: begin OUT = A - B; ZERO = 0; end
-            4'b0111: ZERO = (A < B) ? 1'b1 : 1'b0;
+            4'b0111: {OUT,ZERO} = (A < B) ? 33'h0003 : 33'b0;
             4'b1100: begin OUT = ~ ( A | B ); ZERO = 0; end
             4'b0101: ZERO = (A == B) ? 1'b1 : 1'b0;
         endcase

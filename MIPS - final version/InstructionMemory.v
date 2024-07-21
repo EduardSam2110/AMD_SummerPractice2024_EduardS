@@ -5,7 +5,7 @@ module InstructionMemory( // Contains the program to be executed
     reg [7:0] IM [99:0];
     
     initial
-        $readmemb("InstrMem.mem", IM);
+        $readmemb("test_functii.mem", IM);
     
     assign INSTRUCTION = {IM[ADDRESS], IM[ADDRESS+1], IM[ADDRESS+2], IM[ADDRESS+3]};
     
